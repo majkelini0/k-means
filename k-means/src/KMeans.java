@@ -222,6 +222,9 @@ public class KMeans {
         }
     }
 
+    /**
+     * Displays the purity of each group.
+     */
     private void displayPurity() {
         List<String> kinds = getKind();
 
